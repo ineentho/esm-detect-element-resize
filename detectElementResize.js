@@ -228,3 +228,6 @@ export default function createDetectElementResize(nonce) {
     removeResizeListener
   };
 }
+
+const {addResizeListener, removeResizeListener} = createDetectElementResize();
+export {addResizeListener, removeResizeListener};
